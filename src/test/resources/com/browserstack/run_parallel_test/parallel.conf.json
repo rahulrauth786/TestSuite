@@ -1,0 +1,26 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "username": "ajayjagdeva1",
+  "access_key": "SMx6W2zPwpL7iT3xsKVg",
+
+  "capabilities": {
+    "project": "First TestNg Android Project",
+    "build": "TestNg Android Parallel",
+    "name": "parallel_test",
+    "browserstack.debug": true,
+    "autoGrantPermissions":true,
+    "noReset": false,
+    "app": "bs://abf7ab53a9c51c91e71ddf30348dd2cebccd286f"
+  },
+
+  "environments": [
+    {
+      "device": "Google Pixel 3",
+      "os_version": "9.0"
+    },
+    {
+      "device": "Google Pixel 3",
+      "os_version": "9.0"
+    }
+  ]
+}
